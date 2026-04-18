@@ -1,7 +1,7 @@
-fastapi==0.115.0
-uvicorn[standard]==0.32.0
-python-multipart==0.0.12
-pdfplumber==0.11.4
-pytesseract==0.3.10
-Pillow==11.0.0
-pydantic==2.9.2
+fastapi
+uvicorn[standard]
+python-multipart
+pdfplumber
+pytesseract
+Pillow
+pydantic
