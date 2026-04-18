@@ -20,7 +20,9 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000" ,"https://docparser-frontend.onrender.com"
+    allow_origins=["http://localhost:5173", "http://localhost:3000" ,"https://docparser-frontend.onrender.com" ,
+                   "https://docparser-backend.onrender.com"
+                 
                   ],
     
     allow_credentials=True,
